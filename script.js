@@ -1,14 +1,27 @@
-var num=10;
-console.log(num);
-console.log(typeof(num));
-num=false;
-console.log(typeof(num));
-var num="utkarsh";
-console.log(typeof(num));
-var num;
-console.log(num);
-var num=10;
-console.log(num);
-var num=20;
-console.log(num);
+// Mobile Menu
 
+function toggleMenu(){
+document.getElementById("navLinks").classList.toggle("active");
+}
+
+// Image Slider
+
+const images = [
+"banner1.jpg",
+"banner2.jpg",
+"banner3.jpg"
+];
+
+let current = 0;
+
+setInterval(() => {
+
+current++;
+
+if(current >= images.length){
+current = 0;
+}
+
+document.getElementById("slider").src = images[current];
+
+},3000);

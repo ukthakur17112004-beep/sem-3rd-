@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon Clone</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">amazon</div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search Amazon">
+        <button>🔍</button>
+    </div>
+
+    <div class="menu-btn" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <div class="nav-links" id="navLinks">
+        <a href="#">Sign In</a>
+        <a href="#">Orders</a>
+        <a href="#">Cart</a>
+    </div>
+
+</header>
+
+<nav class="menu">
+
+    <div class="dropdown">
+        <button class="dropbtn">Home ▼</button>
+
+        <div class="dropdown-content">
+            <a href="#">Furniture</a>
+            <a href="#">Kitchen</a>
+            <a href="#">Decor</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Electronics ▼</button>
+
+        <div class="dropdown-content">
+            <a href="#">Laptops</a>
+            <a href="#">Mobiles</a>
+            <a href="#">Headphones</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Fashion ▼</button>
+
+        <div class="dropdown-content">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Grocery ▼</button>
+
+        <div class="dropdown-content">
+            <a href="#">Vegetables</a>
+            <a href="#">Fruits</a>
+            <a href="#">Dairy</a>
+        </div>
+    </div>
+
+</nav>
+
+<section class="hero">
+    <img id="slider" src="banner1.jpg" alt="">
+   
+</section>
+
+<section class="products">
+
+    <div class="box">
+        <h2>Electronics</h2>
+        <img src="laptop.jpg">
+    </div>
+
+    <div class="box">
+        <h2>Fashion</h2>
+        <img src="fashion.jpg">
+    </div>
+
+    <div class="box">
+        <h2>Home Decor</h2>
+        <img src="home.jpg">
+    </div>
+
+    <div class="box">
+        <h2>Kitchen</h2>
+        <img src="kitchen.jpg">
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Amazon Clone
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
